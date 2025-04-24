@@ -1,5 +1,5 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+Este site é um portfólio e blo para [Gustavo Souza](https://github.com/Graefff).
 
 ::github{repo="saicaca/fuwari"}
 
