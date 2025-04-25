@@ -68,6 +68,17 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/Graefff",
 		},
+		{
+			name: "LinkedIn",
+			icon: "fa6-brands:linkedin",
+			url: "https://www.linkedin.com/in/gustavobat/",
+		},
+		{
+			name: "Email",
+			icon: "fa6-regular:envelope",
+			url: "mailto:gustavobat.gb@gmail.com", //url: "mailto:seu.email@example.com?subject=Assunto Aqui&body=Corpo da mensagem aqui"
+
+		},
 	],
 };
 

@@ -3,7 +3,8 @@ title: Draft Example
 published: 2022-07-01
 tags: [Draft, Markdown, Blogging, Demo]
 category: Examples
-draft: true
+draft: false
+lang: pt-br
 ---
 
 # This Article is a Draft
