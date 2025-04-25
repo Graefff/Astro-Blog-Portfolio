@@ -1,21 +1,21 @@
 import Key from "../i18nKey";
 import type { Translation } from "../translation";
 
-export const en: Translation = {
+export const pt_BR: Translation = {
 	[Key.home]: "Home",
-	[Key.about]: "About",
-	[Key.archive]: "Archive",
-	[Key.search]: "Search",
+	[Key.about]: "Sobre",
+	[Key.archive]: "Arquivo",
+	[Key.search]: "Buscar",
 
 	[Key.tags]: "Tags",
-	[Key.categories]: "Categories",
-	[Key.recentPosts]: "Recent Posts",
+	[Key.categories]: "Categorias",
+	[Key.recentPosts]: "Posts Recentes",
 
-	[Key.comments]: "Comments",
+	[Key.comments]: "Commentários",
 
-	[Key.untitled]: "Untitled",
-	[Key.uncategorized]: "Uncategorized",
-	[Key.noTags]: "No Tags",
+	[Key.untitled]: "Sem título",
+	[Key.uncategorized]: "Sem categoria",
+	[Key.noTags]: "Sem tags",
 
 	[Key.wordCount]: "word",
 	[Key.wordsCount]: "words",
