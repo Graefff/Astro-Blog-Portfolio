@@ -7,6 +7,7 @@ import { ko } from "./languages/ko";
 import { th } from "./languages/th";
 import { zh_CN } from "./languages/zh_CN";
 import { zh_TW } from "./languages/zh_TW";
+import { pt_BR } from "./languages/pt_BR";
 
 export type Translation = {
 	[K in I18nKey]: string;
