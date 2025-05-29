@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		{
 			name: "Material de Aula",
-			url: "/material/"
+			url: "/material/",
 		},
 		LinkPreset.About,
 		{
@@ -54,7 +54,6 @@ export const navBarConfig: NavBarConfig = {
 		},
 	],
 };
-
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/Gustavo_Souza.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
@@ -81,8 +80,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa6-regular:envelope",
-			url: "mailto:gustavobat.gb@gmail.com", //url: "mailto:seu.email@example.com?subject=Assunto Aqui&body=Corpo da mensagem aqui"
-
+			url: "mailto:gustavobat.gb@gmail.com", //url: "mailto:seu.email@example.com?subject=Assunto Aqui&body=Corpo da mensagem aqui",
 		},
 	],
 };
