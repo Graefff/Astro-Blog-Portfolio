@@ -1,0 +1,37 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const materiais = [
+  {
+    titulo: "Introdução ao Astro",
+    descricao: "Slides da palestra sobre o framework Astro para construção de sites estáticos modernos.",
+    link: "https://example.com/slides-astro"
+  },
+  {
+    titulo: "Markdown para Documentação",
+    descricao: "Guia rápido com exemplos práticos de como usar Markdown em projetos técnicos.",
+    link: "https://example.com/markdown-guia"
+  },
+  {
+    titulo: "Boas práticas em Frontend",
+    descricao: "Checklist e apresentação usada em workshops sobre organização e qualidade de código frontend.",
+    link: "https://example.com/frontend-boas-praticas"
+  }
+];
+---
+
+<Layout title="Material de Aula">
+  <h1 class="text-3xl font-bold mb-6">Material de Aula</h1>
+  <p class="mb-4">Aqui você encontra recursos e conteúdos usados em minhas palestras, workshops e aulas.</p>
+  <ul class="space-y-4">
+    {materiais.map((item) => (
+      <li class="p-4 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm bg-white dark:bg-gray-900">
+        <h2 class="text-xl font-semibold">{item.titulo}</h2>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{item.descricao}</p>
+        <a class="text-blue-600 hover:underline mt-1 inline-block" href={item.link} target="_blank" rel="noopener noreferrer">
+          Acessar conteúdo →
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>
