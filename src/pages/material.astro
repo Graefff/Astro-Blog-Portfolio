@@ -21,17 +21,25 @@ const materiais = [
 ---
 
 <Layout title="Material de Aula">
-  <h1 class="text-3xl font-bold mb-6">Material de Aula</h1>
-  <p class="mb-4">Aqui você encontra recursos e conteúdos usados em minhas palestras, workshops e aulas.</p>
-  <ul class="space-y-4">
+  <div class="prose dark:prose-invert max-w-none mb-6">
+    <h1>Material de Aula</h1>
+    <p>Aqui você encontra recursos e conteúdos usados em minhas palestras, workshops e aulas.</p>
+  </div>
+
+  <div class="grid gap-6">
     {materiais.map((item) => (
-      <li class="p-4 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm bg-white dark:bg-gray-900">
-        <h2 class="text-xl font-semibold">{item.titulo}</h2>
-        <p class="text-sm text-gray-600 dark:text-gray-400">{item.descricao}</p>
-        <a class="text-blue-600 hover:underline mt-1 inline-block" href={item.link} target="_blank" rel="noopener noreferrer">
+      <div class="rounded-2xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 shadow-sm transition hover:shadow-md">
+        <h2 class="text-xl font-semibold mb-1">{item.titulo}</h2>
+        <p class="text-sm text-gray-700 dark:text-gray-300 mb-2">{item.descricao}</p>
+        <a
+          class="text-blue-600 hover:underline font-medium"
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Acessar conteúdo →
         </a>
-      </li>
+      </div>
     ))}
-  </ul>
+  </div>
 </Layout>
