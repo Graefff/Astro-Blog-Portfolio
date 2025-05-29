@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		{
 			name: "Material de Aula",
-			url: "/material"
+			url: "/material/"
 		},
 		LinkPreset.About,
 		{
