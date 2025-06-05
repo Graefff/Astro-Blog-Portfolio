@@ -1,3 +1,7 @@
+<!--
+Placeholder code for new badges:
+<img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=" alt="">
+-->
 # Sobre
 Este site é um portfólio e blog pessoal sobre tecnologia mantido por mim.
 
@@ -7,105 +11,102 @@ Este site é um portfólio e blog pessoal sobre tecnologia mantido por mim.
   .icon-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px 8px; /* 6px vertical, 8px horizontal */
-    align-items: center;
-    line-height: 1;
+    gap: 2px 5px; /* Espaçamento vertical e horizontal */
+    margin: -12px auto 0 auto; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza os itens dentro do container */
+    max-width: 900px; /* Define uma largura máxima para manter a simetria */
   }
 
   .icon-grid img {
-    width: 38px;
-    height: 38px;
     margin: 0;
-    border-radius: 0; /* <- garante cantos quadrados */
+    line-height: 1;
+    display: block;
   }
 </style>
+
 <div class="icon-grid">
 <!-- A -->
-<img src="https://cdn.simpleicons.org/adguard" title="Adguard" alt="Adguard" />
-<img src="https://cdn.simpleicons.org/amazonalexa" title="Amazon Alexa" alt="Amazon Alexa" />
+<img src="https://img.shields.io/badge/adguard-000000?style=for-the-badge&logo=adguard" alt="Adguard">
+<img src="https://img.shields.io/badge/amazon%20alexa-000000?style=for-the-badge&logo=amazonalexa" alt="Amazon Alexa>
 
 <!-- B -->
-<img src="https://cdn.simpleicons.org/bookstack" title="Bookstack" alt="Bookstack" />
+<img src="https://img.shields.io/badge/bookstack-000000?style=for-the-badge&logo=bookstack" alt="bookstack">
 
 <!-- C -->
-<img src="https://cdn.simpleicons.org/cloudflare" title="Cloudflare" alt="Cloudflare" />
-<img src="https://cdn.simpleicons.org/googlechrome" title="Google Chrome" alt="Google Chrome" />
+<img src="https://img.shields.io/badge/cloudflare-000000?style=for-the-badge&logo=cloudflare" alt="cloudflare">
+<img src="https://img.shields.io/badge/google%20chrome-000000?style=for-the-badge&logo=googlechrome" alt="google chrome">
 
 <!-- D -->
-<img src="https://cdn.simpleicons.org/davinciresolve" title="Davinci Resolve" alt="Davinci Resolve" />
-<img src="https://cdn.simpleicons.org/debian" title="Debian" alt="Debian Linux" />
-<img src="https://cdn.simpleicons.org/docker" title="Docker" alt="Docker" />
+<img src="https://img.shields.io/badge/debian-000000?style=for-the-badge&logo=debian" alt="debian">
+<img src="https://img.shields.io/badge/docker-000000?style=for-the-badge&logo=docker" alt="docker">
 
 <!-- E -->
-<img src="https://cdn.simpleicons.org/.env" title=".env" alt=".env" />
+<img src="https://img.shields.io/badge/.env-000000?style=for-the-badge&logo=.env" alt=".env">
 
 <!-- G -->
-<img src="https://cdn.simpleicons.org/googlegemini" title="Gemini" alt="Gemini" />
-<img src="https://cdn.simpleicons.org/gitforwindows" title="Git" alt="Git" />
-<img src="https://cdn.simpleicons.org/github" title="Github" alt="Github" />
-<img src="https://cdn.simpleicons.org/gmail" title="Gmail" alt="Gmail" />
-<img src="https://cdn.simpleicons.org/googleauthenticator" title="Google Authenticator" alt="Google Authenticator" />
-<img src="https://cdn.simpleicons.org/googlecalendar" title="Google Calendar" alt="Google Calendar" />
-<img src="https://cdn.simpleicons.org/googlecloud" title="Google Cloud" alt="Google Cloud" />
-<img src="https://cdn.simpleicons.org/googledocs" title="Google Docs" alt="Google Docs" />
-<img src="https://cdn.simpleicons.org/googledrive" title="Google Drive" alt="Google Drive" />
-<img src="https://cdn.simpleicons.org/googleforms" title="Google Forms" alt="Google Forms" />
-<img src="https://cdn.simpleicons.org/googlehome" title="Google Home" alt="Google Home" />
-<img src="https://cdn.simpleicons.org/googlemaps" title="Google Maps" alt="Google Maps" />
-<img src="https://cdn.simpleicons.org/googlemeet" title="Google Meet" alt="Google Meet" />
-<img src="https://cdn.simpleicons.org/googlesheets" title="Google Sheets" alt="Google Sheets" />
-<img src="https://cdn.simpleicons.org/googleslides" title="Google Slides" alt="Google Slides" />
-<img src="https://cdn.simpleicons.org/googletasks" title="Google Tasks" alt="Google Tasks" />
-<img src="https://cdn.simpleicons.org/grafana" title="Grafana" alt="Grafana" />
+<img src="https://img.shields.io/badge/googlegemini-000000?style=for-the-badge&logo=googlegemini" alt="google gemini">
+<img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github" alt="GitHub">
+<img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail" alt="Gmail">
+<img src="https://img.shields.io/badge/Google%20Authenticator-000000?style=for-the-badge&logo=googleauthenticator" alt="Google Authenticator">
+<img src="https://img.shields.io/badge/Google%20Calendar-000000?style=for-the-badge&logo=googlecalendar" alt="Google Calendar">
+<img src="https://img.shields.io/badge/Google%20Cloud-000000?style=for-the-badge&logo=googlecloud" alt="Google Cloud">
+<img src="https://img.shields.io/badge/Google%20Docs-000000?style=for-the-badge&logo=googledocs" alt="Google Docs">
+<img src="https://img.shields.io/badge/Google%20Drive-000000?style=for-the-badge&logo=googledrive" alt="Google Drive">
+<img src="https://img.shields.io/badge/Google%20Forms-000000?style=for-the-badge&logo=googleforms" alt="Google Forms">
+<img src="https://img.shields.io/badge/Google%20Home-000000?style=for-the-badge&logo=googlehome" alt="Google Home">
+<img src="https://img.shields.io/badge/Google%20Maps-000000?style=for-the-badge&logo=googlemaps" alt="Google Maps">
+<img src="https://img.shields.io/badge/Google%20Meet-000000?style=for-the-badge&logo=googlemeet" alt="Google Meet">
+<img src="https://img.shields.io/badge/Google%20Sheets-000000?style=for-the-badge&logo=googlesheets" alt="Google Sheets">
+<img src="https://img.shields.io/badge/Google%20Slides-000000?style=for-the-badge&logo=googleslides" alt="Google Slides">
+<img src="https://img.shields.io/badge/Google%20Tasks-000000?style=for-the-badge&logo=googletasks" alt="Google Tasks">
+<img src="https://img.shields.io/badge/Grafana-000000?style=for-the-badge&logo=grafana" alt="Grafana">
 
 <!-- H -->
-<img src="https://cdn.simpleicons.org/homeassistant" title="Home Assistant" alt="Home Assistant" />
+<img src="https://img.shields.io/badge/Home%20Assistant-000000?style=for-the-badge&logo=homeassistant" alt="Home Assistant">
 
 <!-- I -->
-<img src="https://cdn.simpleicons.org/immich" title="Immich" alt="Immich" />
-<img src="https://cdn.simpleicons.org/influxdb" title="InfluxDB" alt="InfluxDB" />
-<img src="https://cdn.simpleicons.org/intellijidea" title="IntelliJ IDEA" alt="IntelliJ IDEA" />
+<img src="https://img.shields.io/badge/Immich-000000?style=for-the-badge&logo=immich" alt="Immich">
+<img src="https://img.shields.io/badge/InfluxDB-000000?style=for-the-badge&logo=influxdb" alt="InfluxDB">
+<img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea" alt="IntelliJ IDEA">
 
 <!-- K -->
-<img src="https://cdn.simpleicons.org/krita" title="Krita" alt="Krita" />
+<img src="https://img.shields.io/badge/Krita-000000?style=for-the-badge&logo=krita" alt="Krita">
 
 <!-- L -->
-<img src="https://cdn.simpleicons.org/linuxmint" title="Linux Mint" alt="Linux Mint" />
+<img src="https://img.shields.io/badge/Linux%20Mint-000000?style=for-the-badge&logo=linuxmint" alt="Linux Mint">
 
 <!-- O -->
-<img src="https://cdn.simpleicons.org/openai" title="ChatGPT" alt="ChatGPT (OpenAI)" />
+<img src="https://img.shields.io/badge/ChatGPT-000000?style=for-the-badge&logo=openai" alt="ChatGPT (OpenAI)">
 
 <!-- P -->
-<img src="https://cdn.simpleicons.org/paperlessngx" title="PaperlessNGX" alt="PaperlessNGX" />
-<img src="https://cdn.simpleicons.org/pihole" title="Pi-hole" alt="Pi-hole" />
-<img src="https://cdn.simpleicons.org/portableappsdotcom" title="PortableApps" alt="PortableApps" />
-<img src="https://cdn.simpleicons.org/portainer" title="Portainer" alt="Portainer" />
-<img src="https://cdn.simpleicons.org/proxmox" title="Proxmox" alt="Proxmox" />
-<img src="https://cdn.simpleicons.org/pterodactyl" title="Pterodactyl" alt="Pterodactyl" />
+<img src="https://img.shields.io/badge/PaperlessNGX-000000?style=for-the-badge&logo=paperlessngx" alt="PaperlessNGX">
+<img src="https://img.shields.io/badge/Pi--hole-000000?style=for-the-badge&logo=pihole" alt="Pi-hole">
+<img src="https://img.shields.io/badge/PortableApps-000000?style=for-the-badge&logo=portableappsdotcom" alt="PortableApps">
+<img src="https://img.shields.io/badge/Portainer-000000?style=for-the-badge&logo=portainer" alt="Portainer">
+<img src="https://img.shields.io/badge/Proxmox-000000?style=for-the-badge&logo=proxmox" alt="Proxmox">
+<img src="https://img.shields.io/badge/Pterodactyl-000000?style=for-the-badge&logo=pterodactyl" alt="Pterodactyl">
 
 <!-- R -->
-<img src="https://cdn.simpleicons.org/reactiveresume" title="ReactiveResume" alt="ReactiveResume" />
+<img src="https://img.shields.io/badge/ReactiveResume-000000?style=for-the-badge&logo=reactiveresume" alt="ReactiveResume">
 
 <!-- S -->
-<img src="https://cdn.simpleicons.org/siyuan" title="SiYuan" alt="SiYuan" />
+<img src="https://img.shields.io/badge/SiYuan-000000?style=for-the-badge&logo=siyuan" alt="SiYuan">
 
 <!-- T -->
-<img src="https://cdn.simpleicons.org/tailscale" title="Tailscale" alt="Tailscale" />
-<img src="https://cdn.simpleicons.org/trilium" title="Trilium" alt="Trilium" />
-<img src="https://cdn.simpleicons.org/truenas" title="TrueNAS" alt="TrueNAS" />
+<img src="https://img.shields.io/badge/Tailscale-000000?style=for-the-badge&logo=tailscale" alt="Tailscale">
+<img src="https://img.shields.io/badge/TriliumNext-000000?style=for-the-badge&logo=trilium" alt="Trilium">
+<img src="https://img.shields.io/badge/TrueNAS-000000?style=for-the-badge&logo=truenas" alt="TrueNAS">
 
 <!-- U -->
-<img src="https://cdn.simpleicons.org/ubiquiti" title="Ubiquiti" alt="Ubiquiti" />
-<img src="https://cdn.simpleicons.org/ubuntu" title="Ubuntu" alt="Ubuntu" />
-
-<!-- W -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" title="Windows" alt="Windows" />
+<img src="https://img.shields.io/badge/Ubiquiti-000000?style=for-the-badge&logo=ubiquiti" alt="Ubiquiti">
+<img src="https://img.shields.io/badge/Ubuntu-000000?style=for-the-badge&logo=ubuntu" alt="Ubuntu">
 
 <!-- Y -->
-<img src="https://cdn.simpleicons.org/yaml" title="YAML" alt="YAML" />
+<img src="https://img.shields.io/badge/YAML-000000?style=for-the-badge&logo=yaml" alt="YAML">
 
 <!-- Z -->
-<img src="https://cdn.simpleicons.org/zerotier" title="Zerotier" alt="Zerotier" />
+<img src="https://img.shields.io/badge/Zerotier-000000?style=for-the-badge&logo=zerotier" alt="Zerotier">
 </div>
 
 #### Estatisticas do Github:
@@ -113,21 +114,6 @@ Este site é um portfólio e blog pessoal sobre tecnologia mantido por mim.
 <div class="flex flex-wrap justify-center gap-4 w-full">
     <img height="160em" class="w-full sm:w-[49%] max-w-[400px]" src="https://readme-stats-iota.vercel.app//api?username=Graefff&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="GitHub Stats">
     <img height="160em" class="w-full sm:w-[49%] max-w-[400px]" src="https://readme-stats-iota.vercel.app/api/top-langs/?username=Graefff&layout=compact&langs_count=7&theme=dark&count-private=true" alt="Most used Languages">
-</div>
-
-#### O que estou ouvindo:
-
-<div class="flex flex-wrap justify-center gap-4 w-full">
-    <img 
-        class="w-full sm:w-[48%] max-w-[400px] max-h-40 object-contain" 
-        src="https://spotify-github-profile.kittinanx.com/api/view?uid=n699v3ihj9r2xbtqawwxjdsxo&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true" 
-        alt="Currently playing on Spotify"
-    >
-    <img 
-        class="w-full sm:w-[48%] max-w-[400px] object-contain" 
-        src="https://spotify-recently-played-readme.vercel.app/api?user=n699v3ihj9r2xbtqawwxjdsxo&count=3" 
-        alt="Recently played on Spotify"
-    >
 </div>
 
 #### Atualmente trabalhando na tradução de:
