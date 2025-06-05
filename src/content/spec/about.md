@@ -12,7 +12,7 @@ Este site é um portfólio e blog pessoal sobre tecnologia mantido por mim.
     display: flex;
     flex-wrap: wrap;
     gap: 2px 5px; /* Espaçamento vertical e horizontal */
-    margin: -12px auto 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto 0 auto; /* Centraliza horizontalmente */
     justify-content: center; /* Centraliza os itens dentro do container */
     max-width: 900px; /* Define uma largura máxima para manter a simetria */
   }
@@ -110,10 +110,10 @@ Este site é um portfólio e blog pessoal sobre tecnologia mantido por mim.
 </div>
 
 #### Estatisticas do Github:
-
+<!-- try to add &include_all_commits=true to the first link in the future -->
 <div class="flex flex-wrap justify-center gap-4 w-full">
-    <img height="160em" class="w-full sm:w-[49%] max-w-[400px]" src="https://readme-stats-iota.vercel.app//api?username=Graefff&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="GitHub Stats">
-    <img height="160em" class="w-full sm:w-[49%] max-w-[400px]" src="https://readme-stats-iota.vercel.app/api/top-langs/?username=Graefff&layout=compact&langs_count=7&theme=dark&count-private=true" alt="Most used Languages">
+    <img height="160em" class="w-full sm:w-[49%] max-w-[400px]" src="https://github-readme-stats.gustavobat-gb.workers.dev/api?username=Graefff&show_icons=true&theme=dark&count-private=true" alt="GitHub Stats">
+    <img height="160em" class="w-full sm:w-[49%] max-w-[400px]" src="https://github-readme-stats.gustavobat-gb.workers.dev/api/top-langs?username=Graefff&layout=compact&langs_count=6&theme=dark&count-private=true" alt="Most used Languages">
 </div>
 
 #### Atualmente trabalhando na tradução de:
