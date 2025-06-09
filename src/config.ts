@@ -46,12 +46,18 @@ export const navBarConfig: NavBarConfig = {
 			name: "Material de Aula",
 			url: "/material/",
 		},
+		{
+			name: "Curriculo",
+			url: "/curriculo/", // Relative to the /public directory
+		},
 		LinkPreset.About,
+		/*
 		{
 			name: "GitHub",
 			url: "https://github.com/Graefff",
 			external: true,
 		},
+		*/
 	],
 };
 
