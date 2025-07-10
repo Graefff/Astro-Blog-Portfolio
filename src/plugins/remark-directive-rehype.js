@@ -2,6 +2,7 @@ import { h } from "hastscript";
 import { visit } from "unist-util-visit";
 
 export function parseDirectiveNode() {
+	// biome-ignore lint/correctness/noUnusedFunctionParameters: explanation
 	return (tree, { data }) => {
 		visit(tree, (node) => {
 			if (
@@ -9,7 +10,7 @@ export function parseDirectiveNode() {
 				node.type === "leafDirective" ||
 				node.type === "textDirective"
 			) {
-				// biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
+				// biome-ignore lint/suspicious/noAssignInExpressions: explanation
 				const data = node.data || (node.data = {});
 				node.attributes = node.attributes || {};
 				if (

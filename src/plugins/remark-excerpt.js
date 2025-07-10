@@ -1,4 +1,4 @@
-// biome-ignore lint/suspicious/noShadowRestrictedNames: <explanation>
+// biome-ignore lint/suspicious/noShadowRestrictedNames: explanation
 import { toString } from "mdast-util-to-string";
 
 /* Use the post's first paragraph as the excerpt */
